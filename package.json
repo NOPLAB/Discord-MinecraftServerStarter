@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "child_process": "^1.0.2",
     "discord.js": "^13.8.0",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "iconv-lite": "^0.6.3"
   },
   "name": "bot_minecraftserverstarter",
   "version": "1.0.0",
@@ -11,5 +13,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1"
+  }
 }
